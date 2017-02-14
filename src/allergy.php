@@ -5,8 +5,8 @@
         {
             $allergies = array();
 
-            if($something>255){
-              array_push($allergies, "Enter a smaller number");
+            if($something>255 || $something<=0){
+              array_push($allergies, "Enter a Correct Number");
             }else{
 
               if($something>=128){
